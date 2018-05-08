@@ -24,11 +24,13 @@
     untracked = cyan
 [alias]
     st = status
+    ts = status
     ci = commit
     br = branch
     co = checkout
     df = diff
     dfs = diff --staged
+    dsf = diff --staged
     dc = diff --cached
     pr = pull --rebase
     amend = commit --amend
